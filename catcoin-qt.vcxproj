@@ -1,0 +1,568 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5C119166-A045-3457-861D-7A5E1543AF98}</ProjectGuid>
+    <RootNamespace>catcoin-qt</RootNamespace>
+    <Keyword>QtVS_v304</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <WindowsTargetPlatformMinVersion>10.0.22621.0</WindowsTargetPlatformMinVersion>
+    <QtMsBuild Condition="'$(QtMsBuild)'=='' OR !Exists('$(QtMsBuild)\qt.targets')">$(MSBuildProjectDirectory)\QtMsBuild</QtMsBuild>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <OutputDirectory>release\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>build\</IntermediateDirectory>
+    <PrimaryOutput>catcoin-qt</PrimaryOutput>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <PlatformToolset>v143</PlatformToolset>
+    <OutputDirectory>debug\</OutputDirectory>
+    <ATLMinimizesCRunTimeLibraryUsage>false</ATLMinimizesCRunTimeLibraryUsage>
+    <CharacterSet>NotSet</CharacterSet>
+    <ConfigurationType>Application</ConfigurationType>
+    <IntermediateDirectory>build\</IntermediateDirectory>
+    <PrimaryOutput>catcoin-qt</PrimaryOutput>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <Import Project="$(QtMsBuild)\qt_defaults.props" Condition="Exists('$(QtMsBuild)\qt_defaults.props')" />
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <QtInstall>6.6.0_msvc2019_64</QtInstall>
+    <QtModules>core;network;gui;widgets</QtModules>
+  </PropertyGroup>
+  <PropertyGroup Label="QtSettings" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <QtInstall>6.6.0_msvc2019_64</QtInstall>
+    <QtModules>core;network;gui;widgets</QtModules>
+  </PropertyGroup>
+  <Target Name="QtMsBuildNotFound" BeforeTargets="CustomBuild;ClCompile" Condition="!Exists('$(QtMsBuild)\qt.targets') OR !Exists('$(QtMsBuild)\Qt.props')">
+    <Message Importance="High" Text="QtMsBuild: could not locate qt.targets, qt.props; project may not build correctly." />
+  </Target>
+  <ImportGroup Label="ExtensionSettings" />
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" />
+    <Import Project="$(QtMsBuild)\Qt.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">build\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">catcoin-qt</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</IgnoreImportLibrary>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">build\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">catcoin-qt</TargetName>
+    <IgnoreImportLibrary Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</IgnoreImportLibrary>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;src;src\json;src\qt;C:/deps/;src\leveldb\include;src\leveldb\helpers;C:/deps/boost_1_53_0;C:/deps/db-6.0.35.NC/build_unix;C:/deps/openssl-1.0.2g/include;build;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 -Wextra -Wformat -Wformat-security -Wno-unused-parameter -Wstack-protector %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>build\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>None</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>build\</ObjectFileName>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>_FORTIFY_SOURCE=2;_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_GUI;BOOST_THREAD_USE_LIB;BOOST_SPIRIT_THREADSAFE;USE_UPNP=1;STATICLIB;USE_IPV6=1;WIN32;_MT;NDEBUG;QT_NO_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <ProgramDataBaseFileName></ProgramDataBaseFileName>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>miniupnpc.lib;iphlpapi.lib;.\src\leveldb\libleveldb.a;.\src\leveldb\libmemenv.a;ssl.lib;crypto.lib;db_cxx.lib;ws2_32.lib;shlwapi.lib;mswsock.lib;ole32.lib;oleaut32.lib;uuid.lib;gdi32.lib;boost_system-mgw48-mt-s-1_53.lib;boost_filesystem-mgw48-mt-s-1_53.lib;boost_program_options-mgw48-mt-s-1_53.lib;boost_thread-mgw48-mt-s-1_53.lib;boost_chrono-mgw48-mt-s-1_53.lib;$(QTDIR)\lib\Qt6EntryPoint.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\deps\miniupnpc;C:\deps\boost_1_53_0\stage\lib;C:\deps\db-6.0.35.NC\build_unix;C:\deps\openssl-1.0.2g;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>-Wl,--dynamicbase -Wl,--nxcompat -Wl,--large-address-aware -static -static-libgcc -static-libstdc++ "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <LinkIncremental>false</LinkIncremental>
+      <OptimizeReferences>true</OptimizeReferences>
+      <OutputFile>$(OutDir)\catcoin-qt.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>0.9</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_FORTIFY_SOURCE=2;_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_GUI;BOOST_THREAD_USE_LIB;BOOST_SPIRIT_THREADSAFE;USE_UPNP=1;STATICLIB;USE_IPV6=1;WIN32;_MT;NDEBUG;QT_NO_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./build/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>build</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>catcoin</InitFuncName>
+      <Compression>default</Compression>
+      <NoZstd>true</NoZstd>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>$(Configuration)</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <QtUicDir>build</QtUicDir>
+      <QtUicFileName>ui_%(Filename).h</QtUicFileName>
+    </QtUic>
+    <QtTranslation>
+      <QmOutputFile>.\src\qt\locale\%(Filename).qm</QmOutputFile>
+      <ReleaseDescription>lrelease %(Identity)</ReleaseDescription>
+      <BuildAction>lrelease</BuildAction>
+      <InputFile>%(FullPath)</InputFile>
+    </QtTranslation>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>GeneratedFiles\$(ConfigurationName);GeneratedFiles;src;src\json;src\qt;C:/deps/;src\leveldb\include;src\leveldb\helpers;C:/deps/boost_1_53_0;C:/deps/db-6.0.35.NC/build_unix;C:/deps/openssl-1.0.2g/include;build;/include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>-Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -utf-8 -Wextra -Wformat -Wformat-security -Wno-unused-parameter -Wstack-protector %(AdditionalOptions)</AdditionalOptions>
+      <AssemblerListingLocation>build\</AssemblerListingLocation>
+      <BrowseInformation>false</BrowseInformation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <ObjectFileName>build\</ObjectFileName>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_FORTIFY_SOURCE=2;_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_GUI;BOOST_THREAD_USE_LIB;BOOST_SPIRIT_THREADSAFE;USE_UPNP=1;STATICLIB;USE_IPV6=1;WIN32;_MT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessToFile>false</PreprocessToFile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <TreatWChar_tAsBuiltInType>true</TreatWChar_tAsBuiltInType>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level4</WarningLevel>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <AdditionalDependencies>miniupnpc.lib;iphlpapi.lib;.\src\leveldb\libleveldb.a;.\src\leveldb\libmemenv.a;ssl.lib;crypto.lib;db_cxx.lib;ws2_32.lib;shlwapi.lib;mswsock.lib;ole32.lib;oleaut32.lib;uuid.lib;gdi32.lib;boost_system-mgw48-mt-s-1_53.lib;boost_filesystem-mgw48-mt-s-1_53.lib;boost_program_options-mgw48-mt-s-1_53.lib;boost_thread-mgw48-mt-s-1_53.lib;boost_chrono-mgw48-mt-s-1_53.lib;$(QTDIR)\lib\Qt6EntryPointd.lib;shell32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\deps\miniupnpc;C:\deps\boost_1_53_0\stage\lib;C:\deps\db-6.0.35.NC\build_unix;C:\deps\openssl-1.0.2g;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>-Wl,--dynamicbase -Wl,--nxcompat -Wl,--large-address-aware -static -static-libgcc -static-libstdc++ "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" %(AdditionalOptions)</AdditionalOptions>
+      <DataExecutionPrevention>true</DataExecutionPrevention>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreImportLibrary>true</IgnoreImportLibrary>
+      <OutputFile>$(OutDir)\catcoin-qt.exe</OutputFile>
+      <RandomizedBaseAddress>true</RandomizedBaseAddress>
+      <SubSystem>Windows</SubSystem>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <Version>0.9</Version>
+    </Link>
+    <Midl>
+      <DefaultCharType>Unsigned</DefaultCharType>
+      <EnableErrorChecks>None</EnableErrorChecks>
+      <WarningLevel>0</WarningLevel>
+    </Midl>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_FORTIFY_SOURCE=2;_WINDOWS;UNICODE;_UNICODE;WIN32;_ENABLE_EXTENDED_ALIGNED_STORAGE;WIN64;QT_GUI;BOOST_THREAD_USE_LIB;BOOST_SPIRIT_THREADSAFE;USE_UPNP=1;STATICLIB;USE_IPV6=1;WIN32;_MT;_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <QtMoc>
+      <CompilerFlavor>msvc</CompilerFlavor>
+      <Include>./build/moc_predefs.h</Include>
+      <ExecutionDescription>Moc'ing %(Identity)...</ExecutionDescription>
+      <DynamicSource>output</DynamicSource>
+      <QtMocDir>build</QtMocDir>
+      <QtMocFileName>moc_%(Filename).cpp</QtMocFileName>
+    </QtMoc>
+    <QtRcc>
+      <InitFuncName>catcoin</InitFuncName>
+      <Compression>default</Compression>
+      <NoZstd>true</NoZstd>
+      <ExecutionDescription>Rcc'ing %(Identity)...</ExecutionDescription>
+      <QtRccDir>$(Configuration)</QtRccDir>
+      <QtRccFileName>qrc_%(Filename).cpp</QtRccFileName>
+    </QtRcc>
+    <QtUic>
+      <ExecutionDescription>Uic'ing %(Identity)...</ExecutionDescription>
+      <QtUicDir>build</QtUicDir>
+      <QtUicFileName>ui_%(Filename).h</QtUicFileName>
+    </QtUic>
+    <QtTranslation>
+      <QmOutputFile>.\src\qt\locale\%(Filename).qm</QmOutputFile>
+      <ReleaseDescription>lrelease %(Identity)</ReleaseDescription>
+      <BuildAction>lrelease</BuildAction>
+      <InputFile>%(FullPath)</InputFile>
+    </QtTranslation>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="src\qt\aboutdialog.cpp" />
+    <ClCompile Include="src\qt\addressbookpage.cpp" />
+    <ClCompile Include="src\qt\addresstablemodel.cpp" />
+    <ClCompile Include="src\addrman.cpp" />
+    <ClCompile Include="src\alert.cpp" />
+    <ClCompile Include="src\qt\askmultisigdialog.cpp" />
+    <ClCompile Include="src\qt\askpassphrasedialog.cpp" />
+    <ClCompile Include="src\qt\bitcoin.cpp" />
+    <ClCompile Include="src\qt\bitcoinaddressvalidator.cpp" />
+    <ClCompile Include="src\qt\bitcoinamountfield.cpp" />
+    <ClCompile Include="src\qt\bitcoingui.cpp" />
+    <ClCompile Include="src\bitcoinrpc.cpp" />
+    <ClCompile Include="src\qt\bitcoinstrings.cpp" />
+    <ClCompile Include="src\qt\bitcoinunits.cpp" />
+    <ClCompile Include="src\bloom.cpp" />
+    <ClCompile Include="src\checkpoints.cpp" />
+    <ClCompile Include="src\qt\clientmodel.cpp" />
+    <ClCompile Include="src\qt\coincontroldialog.cpp" />
+    <ClCompile Include="src\qt\coincontroltreewidget.cpp" />
+    <ClCompile Include="src\crypter.cpp" />
+    <ClCompile Include="src\qt\csvmodelwriter.cpp" />
+    <ClCompile Include="src\db.cpp" />
+    <ClCompile Include="src\qt\editaddressdialog.cpp" />
+    <ClCompile Include="src\qt\guiutil.cpp" />
+    <ClCompile Include="src\hash.cpp" />
+    <ClCompile Include="src\init.cpp" />
+    <ClCompile Include="src\key.cpp" />
+    <ClCompile Include="src\keystore.cpp" />
+    <ClCompile Include="src\leveldb.cpp" />
+    <ClCompile Include="src\main.cpp" />
+    <ClCompile Include="src\qt\monitoreddatamapper.cpp" />
+    <ClCompile Include="src\net.cpp" />
+    <ClCompile Include="src\netbase.cpp" />
+    <ClCompile Include="src\qt\newpubkeydialog.cpp" />
+    <ClCompile Include="src\qt\notificator.cpp" />
+    <ClCompile Include="src\noui.cpp" />
+    <ClCompile Include="src\qt\optionsdialog.cpp" />
+    <ClCompile Include="src\qt\optionsmodel.cpp" />
+    <ClCompile Include="src\qt\paymentserver.cpp" />
+    <ClCompile Include="src\protocol.cpp" />
+    <ClCompile Include="src\qt\qvalidatedlineedit.cpp" />
+    <ClCompile Include="src\qt\qvaluecombobox.cpp" />
+    <ClCompile Include="src\rpcblockchain.cpp" />
+    <ClCompile Include="src\rpcdump.cpp" />
+    <ClCompile Include="src\rpcmining.cpp" />
+    <ClCompile Include="src\rpcnet.cpp" />
+    <ClCompile Include="src\rpcrawtransaction.cpp" />
+    <ClCompile Include="src\rpcwallet.cpp" />
+    <ClCompile Include="src\script.cpp" />
+    <ClCompile Include="src\scrypt.cpp" />
+    <ClCompile Include="src\qt\sendcoinsdialog.cpp" />
+    <ClCompile Include="src\qt\sendcoinsentry.cpp" />
+    <ClCompile Include="src\qt\signverifymessagedialog.cpp" />
+    <ClCompile Include="src\qt\splashscreen.cpp" />
+    <ClCompile Include="src\sync.cpp" />
+    <ClCompile Include="src\qt\transactiondesc.cpp" />
+    <ClCompile Include="src\qt\transactiondescdialog.cpp" />
+    <ClCompile Include="src\qt\transactionfilterproxy.cpp" />
+    <ClCompile Include="src\qt\transactionrecord.cpp" />
+    <ClCompile Include="src\qt\transactiontablemodel.cpp" />
+    <ClCompile Include="src\qt\transactionview.cpp" />
+    <ClCompile Include="src\txdb.cpp" />
+    <ClCompile Include="src\util.cpp" />
+    <ClCompile Include="src\version.cpp" />
+    <ClCompile Include="src\wallet.cpp" />
+    <ClCompile Include="src\walletdb.cpp" />
+    <ClCompile Include="src\qt\walletframe.cpp" />
+    <ClCompile Include="src\qt\walletmodel.cpp" />
+    <ClCompile Include="src\qt\walletstack.cpp" />
+    <ClCompile Include="src\qt\walletview.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="src\qt\aboutdialog.h" />
+    <QtMoc Include="src\qt\addressbookpage.h" />
+    <QtMoc Include="src\qt\addresstablemodel.h" />
+    <ClInclude Include="src\addrman.h" />
+    <ClInclude Include="src\alert.h" />
+    <ClInclude Include="src\allocators.h" />
+    <QtMoc Include="src\qt\askmultisigdialog.h" />
+    <QtMoc Include="src\qt\askpassphrasedialog.h" />
+    <ClInclude Include="src\base58.h" />
+    <ClInclude Include="src\bignum.h" />
+    <QtMoc Include="src\qt\bitcoinaddressvalidator.h" />
+    <QtMoc Include="src\qt\bitcoinamountfield.h" />
+    <QtMoc Include="src\qt\bitcoingui.h" />
+    <ClInclude Include="src\bitcoinrpc.h" />
+    <QtMoc Include="src\qt\bitcoinunits.h" />
+    <ClInclude Include="src\bloom.h" />
+    <ClInclude Include="src\checkpoints.h" />
+    <ClInclude Include="src\checkqueue.h" />
+    <QtMoc Include="src\qt\clientmodel.h" />
+    <ClInclude Include="src\clientversion.h" />
+    <ClInclude Include="src\coincontrol.h" />
+    <QtMoc Include="src\qt\coincontroldialog.h" />
+    <QtMoc Include="src\qt\coincontroltreewidget.h" />
+    <ClInclude Include="src\compat.h" />
+    <ClInclude Include="src\crypter.h" />
+    <QtMoc Include="src\qt\csvmodelwriter.h" />
+    <ClInclude Include="src\db.h" />
+    <QtMoc Include="src\qt\editaddressdialog.h" />
+    <ClInclude Include="src\qt\guiconstants.h" />
+    <QtMoc Include="src\qt\guiutil.h" />
+    <ClInclude Include="src\hash.h" />
+    <ClInclude Include="src\init.h" />
+    <ClInclude Include="src\json\json_spirit.h" />
+    <ClInclude Include="src\json\json_spirit_error_position.h" />
+    <ClInclude Include="src\json\json_spirit_reader.h" />
+    <ClInclude Include="src\json\json_spirit_reader_template.h" />
+    <ClInclude Include="src\json\json_spirit_stream_reader.h" />
+    <ClInclude Include="src\json\json_spirit_utils.h" />
+    <ClInclude Include="src\json\json_spirit_value.h" />
+    <ClInclude Include="src\json\json_spirit_writer.h" />
+    <ClInclude Include="src\json\json_spirit_writer_template.h" />
+    <ClInclude Include="src\key.h" />
+    <ClInclude Include="src\keystore.h" />
+    <ClInclude Include="src\leveldb.h" />
+    <ClInclude Include="src\limitedmap.h" />
+    <QtMoc Include="src\qt\macnotificationhandler.h" />
+    <ClInclude Include="src\main.h" />
+    <QtMoc Include="src\qt\monitoreddatamapper.h" />
+    <ClInclude Include="src\mruset.h" />
+    <ClInclude Include="src\net.h" />
+    <ClInclude Include="src\netbase.h" />
+    <QtMoc Include="src\qt\newpubkeydialog.h" />
+    <QtMoc Include="src\qt\notificator.h" />
+    <QtMoc Include="src\qt\optionsdialog.h" />
+    <QtMoc Include="src\qt\optionsmodel.h" />
+    <QtMoc Include="src\qt\overviewpage.h" />
+    <QtMoc Include="src\qt\paymentserver.h" />
+    <ClInclude Include="src\protocol.h" />
+    <QtMoc Include="src\qt\qvalidatedlineedit.h" />
+    <QtMoc Include="src\qt\qvaluecombobox.h" />
+    <QtMoc Include="src\qt\rpcconsole.h" />
+    <ClInclude Include="src\script.h" />
+    <ClInclude Include="src\scrypt.h" />
+    <QtMoc Include="src\qt\sendcoinsdialog.h" />
+    <QtMoc Include="src\qt\sendcoinsentry.h" />
+    <ClInclude Include="src\serialize.h" />
+    <QtMoc Include="src\qt\signverifymessagedialog.h" />
+    <QtMoc Include="src\qt\splashscreen.h" />
+    <ClInclude Include="src\sync.h" />
+    <ClInclude Include="src\threadsafety.h" />
+    <QtMoc Include="src\qt\transactiondesc.h" />
+    <QtMoc Include="src\qt\transactiondescdialog.h" />
+    <QtMoc Include="src\qt\transactionfilterproxy.h" />
+    <ClInclude Include="src\qt\transactionrecord.h" />
+    <QtMoc Include="src\qt\transactiontablemodel.h" />
+    <QtMoc Include="src\qt\transactionview.h" />
+    <ClInclude Include="src\txdb.h" />
+    <ClInclude Include="src\ui_interface.h" />
+    <ClInclude Include="src\uint256.h" />
+    <ClInclude Include="src\util.h" />
+    <ClInclude Include="src\version.h" />
+    <ClInclude Include="src\wallet.h" />
+    <ClInclude Include="src\walletdb.h" />
+    <QtMoc Include="src\qt\walletframe.h" />
+    <QtMoc Include="src\qt\walletmodel.h" />
+    <QtMoc Include="src\qt\walletstack.h" />
+    <QtMoc Include="src\qt\walletview.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="build\moc_predefs.h.cbt">
+      <FileType>Document</FileType>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -D_FORTIFY_SOURCE=2 -O2 -MD -std:c++17 -utf-8 -fdiagnostics-show-option -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -Wstack-protector -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;build\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">build\moc_predefs.h;%(Outputs)</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(QTDIR)\mkspecs\features\data\dummy.cpp;%(AdditionalInputs)</AdditionalInputs>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">cl -Bx"$(QTDIR)\bin\qmake.exe" -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -permissive- -Zc:__cplusplus -Zc:externConstexpr -D_FORTIFY_SOURCE=2 -Zi -MDd -std:c++17 -utf-8 -fdiagnostics-show-option -Wall -Wextra -Wformat -Wformat-security -Wno-unused-parameter -Wstack-protector -E $(QTDIR)\mkspecs\features\data\dummy.cpp 2&gt;NUL &gt;build\moc_predefs.h</Command>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Generate moc_predefs.h</Message>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">build\moc_predefs.h;%(Outputs)</Outputs>
+    </CustomBuild>
+    <QtMoc Include="src\qt\overviewpage.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <QtMocDir>build</QtMocDir>
+      <QtMocFileName>%(Filename).moc</QtMocFileName>
+    </QtMoc>
+    <QtMoc Include="src\qt\rpcconsole.cpp">
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Release|x64'">input</DynamicSource>
+      <DynamicSource Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">input</DynamicSource>
+      <QtMocDir>build</QtMocDir>
+      <QtMocFileName>%(Filename).moc</QtMocFileName>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <QtTranslation Include="src\qt\locale\bitcoin_af_ZA.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_ar.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_bg.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_bs.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_ca.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_ca_ES.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_cs.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_cy.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_da.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_de.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_el_GR.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_en.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_eo.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_es.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_es_CL.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_et.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_eu_ES.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_fa.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_fa_IR.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_fi.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_fr.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_fr_CA.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_gu_IN.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_he.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_hi_IN.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_hr.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_hu.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_it.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_ja.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_la.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_lt.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_lv_LV.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_nb.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_nl.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_pl.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_pt_BR.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_pt_PT.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_ro_RO.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_ru.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_sk.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_sr.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_sv.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_th_TH.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_tr.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_uk.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_zh_CN.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_zh_TW.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="src\qt\forms\aboutdialog.ui" />
+    <QtUic Include="src\qt\forms\addressbookpage.ui" />
+    <QtUic Include="src\qt\forms\askmultisigdialog.ui" />
+    <QtUic Include="src\qt\forms\askpassphrasedialog.ui" />
+    <QtUic Include="src\qt\forms\coincontroldialog.ui" />
+    <QtUic Include="src\qt\forms\editaddressdialog.ui" />
+    <QtUic Include="src\qt\forms\newpubkeydialog.ui" />
+    <QtUic Include="src\qt\forms\optionsdialog.ui" />
+    <QtUic Include="src\qt\forms\overviewpage.ui" />
+    <QtUic Include="src\qt\forms\rpcconsole.ui" />
+    <QtUic Include="src\qt\forms\sendcoinsdialog.ui" />
+    <QtUic Include="src\qt\forms\sendcoinsentry.ui" />
+    <QtUic Include="src\qt\forms\signverifymessagedialog.ui" />
+    <QtUic Include="src\qt\forms\transactiondescdialog.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\qt\res\images\about.png" />
+    <None Include="src\qt\res\icons\add.png" />
+    <None Include="src\qt\res\icons\address-book.png" />
+    <None Include="src\qt\locale\bitcoin_af_ZA.qm" />
+    <None Include="src\qt\locale\bitcoin_ar.qm" />
+    <None Include="src\qt\locale\bitcoin_bg.qm" />
+    <QtTranslation Include="src\qt\locale\bitcoin_bs.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_ca.ts" />
+    <None Include="src\qt\locale\bitcoin_ca_ES.qm" />
+    <None Include="src\qt\locale\bitcoin_cs.qm" />
+    <QtTranslation Include="src\qt\locale\bitcoin_cy.ts" />
+    <None Include="src\qt\locale\bitcoin_da.qm" />
+    <None Include="src\qt\locale\bitcoin_de.qm" />
+    <None Include="src\qt\locale\bitcoin_el_GR.qm" />
+    <None Include="src\qt\locale\bitcoin_en.qm" />
+    <QtTranslation Include="src\qt\locale\bitcoin_eo.ts" />
+    <None Include="src\qt\locale\bitcoin_es.qm" />
+    <None Include="src\qt\locale\bitcoin_es_CL.qm" />
+    <None Include="src\qt\locale\bitcoin_et.qm" />
+    <None Include="src\qt\locale\bitcoin_eu_ES.qm" />
+    <None Include="src\qt\locale\bitcoin_fa.qm" />
+    <None Include="src\qt\locale\bitcoin_fa_IR.qm" />
+    <None Include="src\qt\locale\bitcoin_fi.qm" />
+    <None Include="src\qt\locale\bitcoin_fr.qm" />
+    <None Include="src\qt\locale\bitcoin_fr_CA.qm" />
+    <QtTranslation Include="src\qt\locale\bitcoin_gu_IN.ts" />
+    <None Include="src\qt\locale\bitcoin_he.qm" />
+    <QtTranslation Include="src\qt\locale\bitcoin_hi_IN.ts" />
+    <None Include="src\qt\locale\bitcoin_hr.qm" />
+    <None Include="src\qt\locale\bitcoin_hu.qm" />
+    <None Include="src\qt\locale\bitcoin_it.qm" />
+    <QtTranslation Include="src\qt\locale\bitcoin_ja.ts" />
+    <QtTranslation Include="src\qt\locale\bitcoin_la.ts" />
+    <None Include="src\qt\locale\bitcoin_lt.qm" />
+    <QtTranslation Include="src\qt\locale\bitcoin_lv_LV.ts" />
+    <None Include="src\qt\locale\bitcoin_nb.qm" />
+    <None Include="src\qt\locale\bitcoin_nl.qm" />
+    <None Include="src\qt\locale\bitcoin_pl.qm" />
+    <None Include="src\qt\locale\bitcoin_pt_BR.qm" />
+    <None Include="src\qt\locale\bitcoin_pt_PT.qm" />
+    <None Include="src\qt\locale\bitcoin_ro_RO.qm" />
+    <None Include="src\qt\locale\bitcoin_ru.qm" />
+    <None Include="src\qt\locale\bitcoin_sk.qm" />
+    <None Include="src\qt\locale\bitcoin_sr.qm" />
+    <None Include="src\qt\locale\bitcoin_sv.qm" />
+    <QtTranslation Include="src\qt\locale\bitcoin_th_TH.ts" />
+    <None Include="src\qt\locale\bitcoin_tr.qm" />
+    <None Include="src\qt\locale\bitcoin_uk.qm" />
+    <None Include="src\qt\locale\bitcoin_zh_CN.qm" />
+    <None Include="src\qt\locale\bitcoin_zh_TW.qm" />
+    <None Include="src\qt\res\icons\catcoin.png" />
+    <QtRcc Include="src\qt\catcoin.qrc" />
+    <None Include="src\qt\res\icons\catcoin_testnet.png" />
+    <None Include="src\qt\res\icons\clock1.png" />
+    <None Include="src\qt\res\icons\clock2.png" />
+    <None Include="src\qt\res\icons\clock3.png" />
+    <None Include="src\qt\res\icons\clock4.png" />
+    <None Include="src\qt\res\icons\clock5.png" />
+    <None Include="src\qt\res\icons\configure.png" />
+    <None Include="src\qt\res\icons\connect0_16.png" />
+    <None Include="src\qt\res\icons\connect1_16.png" />
+    <None Include="src\qt\res\icons\connect2_16.png" />
+    <None Include="src\qt\res\icons\connect3_16.png" />
+    <None Include="src\qt\res\icons\connect4_16.png" />
+    <None Include="src\qt\res\icons\debugwindow.png" />
+    <None Include="src\qt\res\icons\edit.png" />
+    <None Include="src\qt\res\icons\editcopy.png" />
+    <None Include="src\qt\res\icons\editpaste.png" />
+    <None Include="src\qt\res\icons\export.png" />
+    <None Include="src\qt\res\icons\filesave.png" />
+    <None Include="src\qt\res\icons\history.png" />
+    <None Include="src\qt\res\icons\key.png" />
+    <None Include="src\qt\res\icons\lock_closed.png" />
+    <None Include="src\qt\res\icons\lock_open.png" />
+    <None Include="src\qt\res\icons\multisig.png" />
+    <None Include="src\qt\res\icons\overview.png" />
+    <None Include="src\qt\res\icons\qrcode.png" />
+    <None Include="src\qt\res\icons\quit.png" />
+    <None Include="src\qt\res\icons\receive.png" />
+    <None Include="src\qt\res\icons\remove.png" />
+    <None Include="src\qt\res\icons\send.png" />
+    <None Include="src\qt\res\images\splash.png" />
+    <None Include="src\qt\res\images\splash_testnet.png" />
+    <None Include="src\qt\res\icons\synced.png" />
+    <None Include="src\qt\res\icons\toolbar.png" />
+    <None Include="src\qt\res\icons\toolbar_testnet.png" />
+    <None Include="src\qt\res\icons\transaction0.png" />
+    <None Include="src\qt\res\icons\transaction2.png" />
+    <None Include="src\qt\res\icons\tx_inout.png" />
+    <None Include="src\qt\res\icons\tx_input.png" />
+    <None Include="src\qt\res\icons\tx_mined.png" />
+    <None Include="src\qt\res\icons\tx_output.png" />
+    <None Include="src\qt\res\movies\update_spinner.mng" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\qt\res\catcoin-qt.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <Import Project="$(QtMsBuild)\qt.targets" Condition="Exists('$(QtMsBuild)\qt.targets')" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
