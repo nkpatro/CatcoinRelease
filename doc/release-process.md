@@ -114,7 +114,7 @@ repackage gitian builds for release as stand-alone zip/tar/installer exe
 
 * update wiki download links
 
-* update wiki changelog: [https://en.litecoin.it/wiki/Changelog](https://en.bitcoin.it/wiki/Changelog)
+* update wiki changelog: [https://en.catcoin.it/wiki/Changelog](https://en.bitcoin.it/wiki/Changelog)
 
 Commit your signature to gitian.sigs:
 
