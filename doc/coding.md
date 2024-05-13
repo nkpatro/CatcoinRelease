@@ -41,7 +41,7 @@ Common types:
 	v       vector or similar list objects
 	map     map or multimap
 	set     set or multiset
-	bn      CBigNum
+	bn      CBigNum now replaced with uint256
 
 -------------------------
 Locking/mutex usage notes

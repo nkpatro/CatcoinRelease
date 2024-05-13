@@ -147,7 +147,8 @@ public:
         nRejectBlockOutdatedMajority = 950;
         nToCheckBlockUpgradeMajority = 1000;
         nMinerThreads = 0;
-        nTargetTimespan = 14 * 24 * 60 * 60; // two weeks
+        nTargetTimespan = 6 * 60 * 60; // 6 hours
+        nTargetTimespanOld = 14 * 24 * 60 * 60; // two weeks
         nTargetSpacing = 10 * 60; // 10 minute block time target
         nMaxTipAge = 24 * 60 * 60;
 
@@ -329,7 +330,7 @@ public:
         fAllowMinDifficultyBlocks = false;
         fMineBlocksOnDemand = true;
 
-        // Litecoin: v2 enforced using Bitcoin's supermajority rule
+        // Catcoin: v2 enforced using Bitcoin's supermajority rule
         nEnforceV2AfterHeight = -1;
     }
 

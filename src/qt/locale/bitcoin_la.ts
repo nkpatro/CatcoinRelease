@@ -33,7 +33,7 @@ Hoc productum continet programmata composita ab OpenSSL Project pro utendo in Op
     </message>
     <message>
         <location line="+0"/>
-        <source>The Litecoin developers</source>
+        <source>The Catcoin developers</source>
         <translation>Catcoin curatores</translation>
     </message>
 </context>
@@ -1406,8 +1406,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inscriptio cui mittere pensitationem (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Inscriptio cui mittere pensitationem (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1447,8 +1447,8 @@ Inscriptio: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Catcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Insero inscriptionem Catcoin (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Catcoin address (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Insero inscriptionem Catcoin (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
 </context>
 <context>
@@ -1470,8 +1470,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inscriptio qua signare nuntium (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Inscriptio qua signare nuntium (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1543,8 +1543,8 @@ Inscriptio: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Inscriptio qua nuntius signatus est (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Inscriptio qua nuntius signatus est (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1564,8 +1564,8 @@ Inscriptio: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Catcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Insere inscriptionem Catcoin (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Catcoin address (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Insere inscriptionem Catcoin (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1648,7 +1648,7 @@ Inscriptio: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Litecoin developers</source>
+        <source>The Catcoin developers</source>
         <translation>Catcoin curatores</translation>
     </message>
     <message>

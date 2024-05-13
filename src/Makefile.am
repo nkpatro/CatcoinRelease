@@ -60,11 +60,11 @@ bin_PROGRAMS =
 TESTS =
 
 if BUILD_BITCOIND
-  bin_PROGRAMS += litecoind
+  bin_PROGRAMS += catcoind
 endif
 
 if BUILD_BITCOIN_UTILS
-  bin_PROGRAMS += litecoin-cli litecoin-tx
+  bin_PROGRAMS += catcoin-cli catcoin-tx
 endif
 
 .PHONY: FORCE
@@ -292,8 +292,8 @@ libbitcoin_cli_a_SOURCES = \
 nodist_libbitcoin_util_a_SOURCES = $(srcdir)/obj/build.h
 #
 
-# litecoind binary #
-litecoind_LDADD = \
+# catcoind binary #
+catcoind_LDADD = \
   $(LIBBITCOIN_SERVER) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UNIVALUE) \
@@ -304,35 +304,35 @@ litecoind_LDADD = \
   $(LIBSECP256K1)
 
 if ENABLE_WALLET
-litecoind_LDADD += libbitcoin_wallet.a
+catcoind_LDADD += libbitcoin_wallet.a
 endif
-litecoind_SOURCES = bitcoind.cpp
+catcoind_SOURCES = bitcoind.cpp
 #
 
 if TARGET_WINDOWS
-litecoind_SOURCES += bitcoind-res.rc
+catcoind_SOURCES += bitcoind-res.rc
 endif
 
-litecoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
-litecoind_CPPFLAGS = $(BITCOIN_INCLUDES)
-litecoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+catcoind_LDADD += $(BOOST_LIBS) $(BDB_LIBS) $(SSL_LIBS) $(CRYPTO_LIBS) $(MINIUPNPC_LIBS)
+catcoind_CPPFLAGS = $(BITCOIN_INCLUDES)
+catcoind_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 # bitcoin-cli binary #
-litecoin_cli_LDADD = \
+catcoin_cli_LDADD = \
   $(LIBBITCOIN_CLI) \
   $(LIBBITCOIN_UTIL) \
   $(BOOST_LIBS) \
   $(SSL_LIBS) \
   $(CRYPTO_LIBS)
 
-litecoin_cli_SOURCES = \
+catcoin_cli_SOURCES = \
   bitcoin-cli.cpp
 
-litecoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
+catcoin_cli_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
 
 # bitcoin-tx binary #
-litecoin_tx_LDADD = \
+catcoin_tx_LDADD = \
   $(LIBBITCOIN_UNIVALUE) \
   $(LIBBITCOIN_COMMON) \
   $(LIBBITCOIN_UTIL) \
@@ -341,10 +341,10 @@ litecoin_tx_LDADD = \
   $(BOOST_LIBS) \
   $(CRYPTO_LIBS)
 
-litecoin_tx_SOURCES = bitcoin-tx.cpp
-litecoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
+catcoin_tx_SOURCES = bitcoin-tx.cpp
+catcoin_tx_CPPFLAGS = $(BITCOIN_INCLUDES)
 #
-litecoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
+catcoin_tx_LDFLAGS = $(RELDFLAGS) $(AM_LDFLAGS) $(LIBTOOL_APP_LDFLAGS)
 
 if TARGET_WINDOWS
 litecoin_cli_SOURCES += bitcoin-cli-res.rc

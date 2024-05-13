@@ -34,7 +34,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+0"/>
-        <source>The Litecoin developers</source>
+        <source>The Catcoin developers</source>
         <translation>Οι Catcoin προγραμματιστές </translation>
     </message>
 </context>
@@ -1410,8 +1410,8 @@ Address: %4
     </message>
     <message>
         <location line="+34"/>
-        <source>The address to send the payment to (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Διεύθυνση αποστολής της πληρωμής  (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to send the payment to (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Διεύθυνση αποστολής της πληρωμής  (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
     <message>
         <location line="+60"/>
@@ -1451,8 +1451,8 @@ Address: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Catcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Catcoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Catcoin address (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Εισάγετε μια διεύθυνση Catcoin (π.χ. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
 </context>
 <context>
@@ -1474,8 +1474,8 @@ Address: %4
     </message>
     <message>
         <location line="+18"/>
-        <source>The address to sign the message with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Catcoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address to sign the message with (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Εισάγετε μια διεύθυνση Catcoin (π.χ. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1547,8 +1547,8 @@ Address: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>The address the message was signed with (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Catcoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>The address the message was signed with (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Εισάγετε μια διεύθυνση Catcoin (π.χ. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
     <message>
         <location line="+40"/>
@@ -1568,8 +1568,8 @@ Address: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Catcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
-        <translation>Εισάγετε μια διεύθυνση Catcoin (π.χ. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
+        <source>Enter a Catcoin address (e.g. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</source>
+        <translation>Εισάγετε μια διεύθυνση Catcoin (π.χ. 9jJYXF6bfv4JgLGC2BrNj4FMhAZ63k22MF)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -1652,7 +1652,7 @@ Address: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Litecoin developers</source>
+        <source>The Catcoin developers</source>
         <translation>Οι Catcoin προγραμματιστές </translation>
     </message>
     <message>
