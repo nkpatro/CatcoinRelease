@@ -44,7 +44,7 @@ else
 TESTLIBS += \
  -lboost_unit_test_framework-mt
 LIBS += \
- -ldb_cxx-4.8 \
+ -ldb_cxx-5.3 \
  -lboost_system-mt \
  -lboost_filesystem-mt \
  -lboost_program_options-mt \
