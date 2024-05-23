@@ -32,3 +32,8 @@ qrc_*.cpp
 build
 
 !src/leveldb/Makefile
+.idea/CatcoinRelease.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/shelf/Uncommitted_changes_before_Update_at_23-05-2024_11_43__Changes_.xml
+.idea/workspace.xml
