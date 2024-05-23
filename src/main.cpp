@@ -2556,16 +2556,16 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
                          REJECT_INVALID, "bad-diffbits");
 
     // Check timestamp against prev
-    if(GetBlockTime() > 1504224000) //Sep 1, 2017 00:00:00 GMT
+    if(block.GetBlockTime() > 1504224000) //Sep 1, 2017 00:00:00 GMT
     {
-        if (GetBlockTime() <= pindexPrev->GetBlockTime())
-            return state.DoS(100,error("%s : block's timestamp is too early", __func__),
+        if (block.GetBlockTime() <= pindexPrev->GetBlockTime())
+            return state.Invalid(error("%s : block's timestamp is too early", __func__),
                                  REJECT_INVALID, "time-too-old");
     }
     else
     {
-        if (GetBlockTime() <= pindexPrev->GetMedianTimePast())
-            return state.DoS(100,error("%s : block's timestamp is too early", __func__),
+        if (block.GetBlockTime() <= pindexPrev->GetMedianTimePast())
+            return state.Invalid(error("%s : block's timestamp is too early", __func__),
                                  REJECT_INVALID, "time-too-old");
     }
 
