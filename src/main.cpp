@@ -1254,21 +1254,21 @@ CAmount GetBlockValue(int nHeight, const CAmount& nFees)
 
     return nSubsidy + nFees;
 }
-/*
- *  Added as part of merging activity. will be removed - Part 1 start
- */
-static const int64 nTargetTimespan = 6 * 60 * 60; // 6 hours
-static const int64 nTargetSpacing = 10 * 60;  // 10 minute block time target
-static const int64 nInterval = nTargetTimespan / nTargetSpacing;
-
-static const int64 nTargetTimespanOld = 14 * 24 * 60 * 60; // two weeks
-static const int64 nIntervalOld = nTargetTimespanOld / nTargetSpacing;
+///*
+// *  Added as part of merging activity. will be removed - Part 1 start
+// */
+//static const int64 nTargetTimespan = 6 * 60 * 60; // 6 hours
+//static const int64 nTargetSpacing = 10 * 60;  // 10 minute block time target
+//static const int64 nInterval = nTargetTimespan / nTargetSpacing;
+//
+//static const int64 nTargetTimespanOld = 14 * 24 * 60 * 60; // two weeks
+//static const int64 nIntervalOld = nTargetTimespanOld / nTargetSpacing;
 
 // Return maximum amount of blocks that other nodes claim to have
-int GetNumBlocksOfPeers()
-{
-    return std::max(cPeerBlockCounts.median(), Checkpoints::GetTotalBlocksEstimate());
-}
+//int GetNumBlocksOfPeers()
+//{
+//    return std::max(cPeerBlockCounts.median(), Checkpoints::GetTotalBlocksEstimate());
+//}
 /*
  *  Added as part of merging activity. will be removed - Part 1 end
  */
