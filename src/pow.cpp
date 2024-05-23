@@ -32,7 +32,7 @@ int GetForkBlock(int nForkBlock)
     }
 }
 
-unsigned int static GetNextWorkRequired_PID(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
+unsigned int GetNextWorkRequired_PID(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
     unsigned int i;
 
@@ -237,7 +237,7 @@ If New diff < 0, then set static value of 0.0001 or so.
     return bnNew.GetCompact();
 }
 
-unsigned int static GetNextWorkRequired_DIGI(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
+unsigned int GetNextWorkRequired_DIGI(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
     // Digi algorithm should never be used until at least 2 blocks are mined.
     // Contains code by RealSolid & WDC
@@ -355,7 +355,7 @@ unsigned int static GetNextWorkRequired_DIGI(const CBlockIndex* pindexLast, cons
 //    return bnNew.GetCompact();
 //}
 
-unsigned int static GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
+unsigned int GetNextWorkRequired(const CBlockIndex* pindexLast, const CBlockHeader *pblock)
 {
     int DiffMode=1;
     //double algoTest=0;
