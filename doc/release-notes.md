@@ -21,7 +21,7 @@
 
 - Peers older than protocol version 70002 are disconnected.  0.8.3.7 is the oldest compatible client.
 
-- Internal miner added back to Litecoin.  setgenerate now works, although it is generally a bad idea as it is significantly slower than external CPU miners.
+- Internal miner added back to Catcoin.  setgenerate now works, although it is generally a bad idea as it is significantly slower than external CPU miners.
 
 - New RPC commands: getbestblockhash and verifychain
 
@@ -46,7 +46,7 @@
 
 Workaround negative version numbers serialization bug.
 
-Fix out-of-bounds check (Litecoin currently does not use this codepath, but we apply this
+Fix out-of-bounds check (Catcoin currently does not use this codepath, but we apply this
 patch just to match Bitcoin 0.8.5.)
 
 0.8.4.1 changes
