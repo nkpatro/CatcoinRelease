@@ -1,24 +1,24 @@
-Litecoin Core integration/staging tree
+Catcoin Core integration/staging tree
 =====================================
 
 https://catcoin.org
 
-What is Litecoin?
+What is Catcoin?
 ----------------
 
-Litecoin is an experimental new digital currency that enables instant payments to
-anyone, anywhere in the world. Litecoin uses peer-to-peer technology to operate
+Catcoin is an experimental new digital currency that enables instant payments to
+anyone, anywhere in the world. Catcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Litecoin Core is the name of open source
+out collectively by the network. Catcoin Core is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Litecoin Core software, see https://catcoin.org
+the Catcoin Core software, see https://catcoin.org
 
 License
 -------
 
-Litecoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Catcoin Core is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see http://opensource.org/licenses/MIT.
 
 Development process
@@ -27,7 +27,7 @@ Development process
 Developers work in their own trees, then submit pull requests when they think
 their feature or bug fix is ready.
 
-If it is a simple/trivial/non-controversial change, then one of the Litecoin
+If it is a simple/trivial/non-controversial change, then one of the Catcoin
 development team members simply pulls it.
 
 If it is a *more complicated or potentially controversial* change, then the patch
@@ -41,7 +41,7 @@ controversial.
 
 The `master-0.10` branch is regularly built and tested, but is not guaranteed to be
 completely stable. [Tags](https://github.com/catcoin-project/catcoin/tags) are created
-regularly to indicate new official, stable release versions of Litecoin.
+regularly to indicate new official, stable release versions of Catcoin.
 
 Testing
 -------
@@ -55,7 +55,7 @@ lots of money.
 
 Large changes should have a test plan, and should be tested by somebody other
 than the developer who wrote the code.
-Creating a thread in the [Litecoin discussion forum](https://catcointalk.org/index.php?board=2.0) will allow the Litecoin
+Creating a thread in the [Catcoin discussion forum](https://catcointalk.org/index.php?board=2.0) will allow the Catcoin
 development team members to review your proposal and to provide assistance with creating a test plan. 
 
 
@@ -66,7 +66,7 @@ Translations
 pull from Transifex would automatically overwrite them again.
 
 We only accept translation fixes that are submitted through [Bitcoin Core's Transifex page](https://www.transifex.com/projects/p/bitcoin/).
-Translations are converted to Litecoin periodically.
+Translations are converted to Catcoin periodically.
 
 Development tips and tricks
 ---------------------------
@@ -98,7 +98,7 @@ that run in -regtest mode.
 
 **DEBUG_LOCKORDER**
 
-Litecoin Core is a multithreaded application, and deadlocks or other multithreading bugs
+Catcoin Core is a multithreaded application, and deadlocks or other multithreading bugs
 can be very difficult to track down. Compiling with -DDEBUG_LOCKORDER (configure
 CXXFLAGS="-DDEBUG_LOCKORDER -g") inserts run-time checks to keep track of which locks
 are held, and adds warnings to the debug.log file if inconsistencies are detected.

@@ -143,8 +143,8 @@
         <translation>&amp;Opsies</translation>
     </message>
     <message>
-        <source>Litecoin</source>
-        <translation>Litecoin</translation>
+        <source>Catcoin</source>
+        <translation>Catcoin</translation>
     </message>
     <message>
         <source>Wallet</source>

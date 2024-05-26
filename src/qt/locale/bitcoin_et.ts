@@ -551,8 +551,8 @@ Aadress: %4⏎</translation>
         <translation>Selline aadress on juba olemas: "%1"</translation>
     </message>
     <message>
-        <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>Sisestatud aadress "%1" ei ole Litecoinis kehtiv.</translation>
+        <source>The entered address "%1" is not a valid Catcoin address.</source>
+        <translation>Sisestatud aadress "%1" ei ole Catcoinis kehtiv.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -573,16 +573,16 @@ Aadress: %4⏎</translation>
 <context>
     <name>HelpMessageDialog</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoini tuumik</translation>
+        <source>Catcoin Core</source>
+        <translation>Catcoini tuumik</translation>
     </message>
     <message>
         <source>version</source>
         <translation>versioon</translation>
     </message>
     <message>
-        <source>About Litecoin Core</source>
-        <translation>Kirjeldus Litecoini Tuumast</translation>
+        <source>About Catcoin Core</source>
+        <translation>Kirjeldus Catcoini Tuumast</translation>
     </message>
     <message>
         <source>Command-line options</source>
@@ -620,8 +620,8 @@ Aadress: %4⏎</translation>
         <translation>Teretulemast</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoini tuumik</translation>
+        <source>Catcoin Core</source>
+        <translation>Catcoini tuumik</translation>
     </message>
     <message>
         <source>Error</source>
@@ -646,12 +646,12 @@ Aadress: %4⏎</translation>
         <translation>Valikud</translation>
     </message>
     <message>
-        <source>Automatically start Litecoin after logging in to the system.</source>
-        <translation>Käivita Litecoin süsteemi logimisel.</translation>
+        <source>Automatically start Catcoin after logging in to the system.</source>
+        <translation>Käivita Catcoin süsteemi logimisel.</translation>
     </message>
     <message>
-        <source>&amp;Start Litecoin on system login</source>
-        <translation>&amp;Start Litecoin sisselogimisel</translation>
+        <source>&amp;Start Catcoin on system login</source>
+        <translation>&amp;Start Catcoin sisselogimisel</translation>
     </message>
     <message>
         <source>MB</source>
@@ -678,8 +678,8 @@ Aadress: %4⏎</translation>
         <translation>Ekspert</translation>
     </message>
     <message>
-        <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Litecoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
+        <source>Automatically open the Catcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Catcoini kliendi pordi automaatne avamine ruuteris. Toimib, kui sinu ruuter aktsepteerib UPnP ühendust.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -726,8 +726,8 @@ Aadress: %4⏎</translation>
         <translation>Kasutajaliidese &amp;keel:</translation>
     </message>
     <message>
-        <source>The user interface language can be set here. This setting will take effect after restarting Litecoin.</source>
-        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Litecoini käivitamisel.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Catcoin.</source>
+        <translation>Kasutajaliidese keele valimise koht. Valik rakendub Catcoini käivitamisel.</translation>
     </message>
     <message>
         <source>&amp;Unit to show amounts in:</source>
@@ -765,8 +765,8 @@ Aadress: %4⏎</translation>
         <translation>Vorm</translation>
     </message>
     <message>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Litecoin network after a connection is established, but this process has not completed yet.</source>
-        <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Litecoin võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Catcoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Kuvatav info ei pruugi olla ajakohane. Ühenduse loomisel süngitakse sinu rahakott automaatselt Catcoin võrgustikuga, kuid see toiming on hetkel lõpetamata.</translation>
     </message>
     <message>
         <source>Immature:</source>
@@ -793,7 +793,7 @@ Aadress: %4⏎</translation>
     </message>
     <message>
         <source>Cannot start catcoin: click-to-pay handler</source>
-        <translation>Litecoin ei käivitu: vajuta-maksa toiming</translation>
+        <translation>Catcoin ei käivitu: vajuta-maksa toiming</translation>
     </message>
     </context>
 <context>
@@ -908,16 +908,16 @@ Aadress: %4⏎</translation>
         <translation>Debugimise logifail</translation>
     </message>
     <message>
-        <source>Open the Litecoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Ava Litecoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
+        <source>Open the Catcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Ava Catcoini logifail praegusest andmekaustast. Toiminguks võib kuluda kuni mõni sekund.</translation>
     </message>
     <message>
         <source>Clear console</source>
         <translation>Puhasta konsool</translation>
     </message>
     <message>
-        <source>Welcome to the Litecoin RPC console.</source>
-        <translation>Teretulemast Litecoini RPC konsooli.</translation>
+        <source>Welcome to the Catcoin RPC console.</source>
+        <translation>Teretulemast Catcoini RPC konsooli.</translation>
     </message>
     <message>
         <source>Use up and down arrows to navigate history, and &lt;b&gt;Ctrl-L&lt;/b&gt; to clear screen.</source>
@@ -1213,8 +1213,8 @@ Aadress: %4⏎</translation>
         <translation>Kopeeri praegune signatuur vahemällu</translation>
     </message>
     <message>
-        <source>Sign the message to prove you own this Litecoin address</source>
-        <translation>Allkirjasta sõnum Litecoini aadressi sulle kuulumise tõestamiseks</translation>
+        <source>Sign the message to prove you own this Catcoin address</source>
+        <translation>Allkirjasta sõnum Catcoini aadressi sulle kuulumise tõestamiseks</translation>
     </message>
     <message>
         <source>Sign &amp;Message</source>
@@ -1237,8 +1237,8 @@ Aadress: %4⏎</translation>
         <translation>Kinnitamiseks sisesta allkirjastamise aadress, sõnum (kindlasti kopeeri täpselt ka reavahetused, tühikud, tabulaatorid jms) ning allolev signatuur.</translation>
     </message>
     <message>
-        <source>Verify the message to ensure it was signed with the specified Litecoin address</source>
-        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Litecoini aadressiga.</translation>
+        <source>Verify the message to ensure it was signed with the specified Catcoin address</source>
+        <translation>Kinnita sõnum tõestamaks selle allkirjastatust määratud Catcoini aadressiga.</translation>
     </message>
     <message>
         <source>Verify &amp;Message</source>
@@ -1304,8 +1304,8 @@ Aadress: %4⏎</translation>
 <context>
     <name>SplashScreen</name>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoini tuumik</translation>
+        <source>Catcoin Core</source>
+        <translation>Catcoini tuumik</translation>
     </message>
     <message>
         <source>The Bitcoin Core developers</source>
