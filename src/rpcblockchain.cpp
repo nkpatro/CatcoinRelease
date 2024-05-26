@@ -273,8 +273,8 @@ Value getblock(const Array& params, bool fHelp)
             "\nResult (for verbose=false):\n"
             "\"data\"             (string) A string that is serialized, hex-encoded data for block 'hash'.\n"
             "\nExamples:\n"
-            + HelpExampleCli("getblock", "\"0c3b2c31c8aa025e5ae7a87dfe63d1795a061b95e7b00aee61e5384338a26739\"")
-            + HelpExampleRpc("getblock", "\"0c3b2c31c8aa025e5ae7a87dfe63d1795a061b95e7b00aee61e5384338a26739\"")
+            + HelpExampleCli("getblock", "\"bc3b4ec43c4ebb2fef49e6240812549e61ffa623d9418608aa90eaad26c96296\"")
+            + HelpExampleRpc("getblock", "\"bc3b4ec43c4ebb2fef49e6240812549e61ffa623d9418608aa90eaad26c96296\"")
         );
 
     std::string strHash = params[0].get_str();
@@ -356,7 +356,7 @@ Value gettxout(const Array& params, bool fHelp)
             "{\n"
             "  \"bestblock\" : \"hash\",    (string) the block hash\n"
             "  \"confirmations\" : n,       (numeric) The number of confirmations\n"
-            "  \"value\" : x.xxx,           (numeric) The transaction value in ltc\n"
+            "  \"value\" : x.xxx,           (numeric) The transaction value in cat\n"
             "  \"scriptPubKey\" : {         (json object)\n"
             "     \"asm\" : \"code\",       (string) \n"
             "     \"hex\" : \"hex\",        (string) \n"

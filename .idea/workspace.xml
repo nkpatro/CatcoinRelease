@@ -17,403 +17,42 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df0f6963-da5e-46f3-94a0-5e84e1b84b1d" name="Changes" comment="removed the marked temp code">
-      <change beforePath="$PROJECT_DIR$/.gitattributes" beforeDir="false" afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COPYING" beforeDir="false" afterPath="$PROJECT_DIR$/COPYING" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/INSTALL" beforeDir="false" afterPath="$PROJECT_DIR$/INSTALL" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/bitcoind.bash-completion" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/bitcoind.bash-completion" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/bitrpc/bitrpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/bitrpc/bitrpc.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/bitcoin-qt.desktop" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/bitcoin-qt.desktop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/bitcoin-qt.install" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/bitcoin-qt.install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/bitcoind.install" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/bitcoind.install" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/changelog" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/changelog" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/control" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/control" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/copyright" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/copyright" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/examples/litecoin.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-qt.desktop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-qt.install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-qt.lintian-overrides" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-qt.protocol" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-tx.install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.bash-completion" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.examples" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.install" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.lintian-overrides" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.manpages" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/manpages/litecoin-qt.1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/manpages/litecoin.conf.5" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/manpages/litecoind.1" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/contrib/debian/examples/bitcoin.conf" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/examples/bitcoin.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/bitcoin-qt.1" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/bitcoin-qt.1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/bitcoin.conf.5" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/bitcoin.conf.5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/bitcoind.1" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/bitcoind.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/rules" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/rules" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/gitian-downloader/bluematt-key.pgp" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-downloader/bluematt-key.pgp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/gitian-downloader/linux-download-config" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-downloader/linux-download-config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/gitian-downloader/win32-download-config" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-downloader/win32-download-config" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/macdeploy/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/macdeploy/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/macdeploy/fancy.plist" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/macdeploy/fancy.plist" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/macdeploy/macdeployqtplus" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/macdeploy/macdeployqtplus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/gitian-downloader/coblee-key.pgp" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-downloader/coblee-key.pgp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/qos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/qos/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contrib/qos/tc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/qos/tc.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contrib/seeds/makeseeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/seeds/makeseeds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/testgen/gen_base58_test_vectors.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/testgen/gen_base58_test_vectors.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Doxyfile" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Doxyfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/README_windows.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/README_windows.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/bitcoin_logo_doxygen.png" beforeDir="false" afterPath="$PROJECT_DIR$/doc/bitcoin_logo_doxygen.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/build-osx.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/build-osx.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/build-unix.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/build-unix.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/Tor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Tor.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/doc/coding.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/coding.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/multiwallet-qt.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/multiwallet-qt.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/release-notes.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/release-notes.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/release-process.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/release-process.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/translation_process.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/translation_process.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/unit-tests.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/unit-tests.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/genbuild.sh" beforeDir="false" afterPath="$PROJECT_DIR$/share/genbuild.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin-bc.ico" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin-bc.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin.ico" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin128.png" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin128.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin128.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin128.xpm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin16.png" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin16.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin16.xpm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin256.png" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin256.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin256.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin256.xpm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin32.png" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin32.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin32.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin32.xpm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin64.png" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin64.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/bitcoin64.xpm" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/bitcoin64.xpm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/nsis-header.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/nsis-header.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/pixmaps/nsis-wizard.bmp" beforeDir="false" afterPath="$PROJECT_DIR$/share/pixmaps/nsis-wizard.bmp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/qt/extract_strings_qt.py" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/extract_strings_qt.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/qt/make_spinner.py" beforeDir="false" afterPath="$PROJECT_DIR$/share/qt/make_spinner.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addrman.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/addrman.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/addrman.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/addrman.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alert.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/alert.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/alert.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/alert.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/allocators.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/allocators.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/base58.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/base58.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bignum.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bitcoinrpc.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bitcoinrpc.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bloom.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/bloom.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bloom.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/bloom.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checkpoints.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkpoints.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checkpoints.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkpoints.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/checkqueue.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/checkqueue.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clientversion.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/clientversion.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/coincontrol.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/coincontrol.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/compat.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/compat.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crypter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/crypter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crypter.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/crypter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/db.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/hash.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/hash.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/tor.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/tor.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/seeds/generate-seeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/share/seeds/generate-seeds.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/share/seeds/nodes_main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/share/seeds/nodes_main.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chainparamsseeds.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainparamsseeds.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/init.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/init.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/init.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/json_spirit_reader_template.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/json_spirit_reader_template.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/json/json_spirit_value.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/json/json_spirit_value.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/key.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/key.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/key.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/key.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keystore.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/keystore.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/keystore.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/keystore.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/AUTHORS" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/AUTHORS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/NEWS" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/NEWS" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/TODO" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/TODO" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/build_detect_platform" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/build_detect_platform" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/corruption_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/corruption_test.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/db_bench.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/db_bench.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/db_impl.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/db_impl.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/db_impl.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/db_impl.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/db_iter.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/db_iter.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/db_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/db_test.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/dbformat.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/dbformat.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/filename.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/filename.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/filename.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/filename.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/filename_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/filename_test.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/leveldb_main.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/leveldb_main.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/log_format.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/log_format.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/log_reader.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/log_reader.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/log_reader.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/log_reader.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/log_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/log_test.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/repair.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/repair.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/skiplist.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/skiplist.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/table_cache.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/table_cache.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/version_set.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/version_set.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/version_set.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/version_set.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/db/write_batch_internal.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/db/write_batch_internal.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/doc/bench/db_bench_tree_db.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/doc/bench/db_bench_tree_db.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/doc/impl.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/doc/impl.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/doc/log_format.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/doc/log_format.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/helpers/memenv/memenv.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/helpers/memenv/memenv.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/include/leveldb/c.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/include/leveldb/c.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/include/leveldb/cache.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/include/leveldb/cache.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/include/leveldb/db.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/include/leveldb/db.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/include/leveldb/env.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/include/leveldb/env.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/include/leveldb/iterator.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/include/leveldb/iterator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/include/leveldb/options.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/include/leveldb/options.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/include/leveldb/slice.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/include/leveldb/slice.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/port/atomic_pointer.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/port/atomic_pointer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/port/port_posix.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/port/port_posix.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/port/thread_annotations.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/port/thread_annotations.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/table/block.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/table/block.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/table/block_builder.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/table/block_builder.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/table/filter_block_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/table/filter_block_test.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/table/format.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/table/format.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/table/table.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/table/table.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/arena.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/arena.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/arena.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/arena.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/arena_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/arena_test.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/bloom.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/bloom.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/bloom_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/bloom_test.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/coding_test.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/coding_test.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/env_posix.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/env_posix.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/env_win.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/env_win.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/hash.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/hash.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/logging.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/logging.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/logging.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/logging.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/testharness.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/testharness.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/testutil.cc" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/testutil.cc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/leveldb/util/testutil.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/leveldb/util/testutil.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/limitedmap.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/limitedmap.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makefile.linux-mingw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makefile.mingw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makefile.osx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/makefile.unix" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/mruset.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/mruset.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/net.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/net.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/net.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/netbase.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/netbase.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/netbase.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/netbase.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/noui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/noui.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/protocol.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/protocol.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/protocol.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/protocol.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/aboutdialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/aboutdialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/addressbookpage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/addressbookpage.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/addressbookpage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/addresstablemodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/addresstablemodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/addresstablemodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/addresstablemodel.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/askpassphrasedialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/askpassphrasedialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/askpassphrasedialog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoin.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinaddressvalidator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinaddressvalidator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinaddressvalidator.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinaddressvalidator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinamountfield.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinamountfield.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinamountfield.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinamountfield.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoingui.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoingui.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoingui.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinstrings.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinstrings.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/bitcoinunits.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/bitcoinunits.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/catcoin.qrc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/clientmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/clientmodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/clientmodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/clientmodel.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/coincontroldialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/coincontroldialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/coincontroldialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/coincontroldialog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/coincontroltreewidget.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/coincontroltreewidget.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/coincontroltreewidget.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/coincontroltreewidget.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/csvmodelwriter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/csvmodelwriter.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/csvmodelwriter.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/csvmodelwriter.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/editaddressdialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/editaddressdialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/editaddressdialog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/addressbookpage.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/addressbookpage.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/askpassphrasedialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/askpassphrasedialog.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/coincontroldialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/coincontroldialog.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/editaddressdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/editaddressdialog.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/optionsdialog.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/overviewpage.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/overviewpage.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/rpcconsole.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/rpcconsole.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/sendcoinsdialog.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/sendcoinsentry.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/sendcoinsentry.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/signverifymessagedialog.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/forms/transactiondescdialog.ui" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/forms/transactiondescdialog.ui" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/guiconstants.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/guiconstants.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/guiutil.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/guiutil.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/guiutil.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/guiutil.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_af_ZA.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_af_ZA.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ar.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ar.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bg.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_bs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_bs.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca_ES.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ca_ES.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_cs.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cs.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_cy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_cy.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_da.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_da.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_de.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_de.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_el_GR.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_el_GR.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_en.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_en.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_eo.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eo.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CL.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_es_CL.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_et.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_et.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_eu_ES.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_eu_ES.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa_IR.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fa_IR.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fi.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fi.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr_CA.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_fr_CA.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_gu_IN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_gu_IN.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_he.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_he.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hi_IN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hi_IN.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hr.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_hu.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_hu.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_it.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_it.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ja.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_la.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_la.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_lt.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lt.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_lv_LV.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_lv_LV.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nb.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_nl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pl.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pl.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_BR.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_BR.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_PT.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_pt_PT.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro_RO.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ro_RO.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_ru.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sk.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sr.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_sv.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_sv.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_th_TH.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_th_TH.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_tr.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_tr.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_uk.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_uk.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_CN.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_CN.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_TW.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/locale/bitcoin_zh_TW.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/macdockiconhandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/macdockiconhandler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/macdockiconhandler.mm" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/macdockiconhandler.mm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/macnotificationhandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/macnotificationhandler.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/macnotificationhandler.mm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/notificator.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/notificator.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/notificator.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/notificator.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/optionsdialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/optionsdialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/optionsdialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/optionsdialog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/optionsmodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/optionsmodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/optionsmodel.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/overviewpage.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/overviewpage.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/overviewpage.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/overviewpage.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/paymentserver.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/paymentserver.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/paymentserver.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/paymentserver.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/qvalidatedlineedit.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/qvalidatedlineedit.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/qvalidatedlineedit.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/qvalidatedlineedit.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/qvaluecombobox.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/qvaluecombobox.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/qvaluecombobox.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/qvaluecombobox.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/add.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/add.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/address-book.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/address-book.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/clock1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/clock2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/clock3.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock3.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/clock4.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock4.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/clock5.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/clock5.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/configure.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/configure.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/connect0_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect0_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/connect1_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect1_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/connect2_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect2_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/connect3_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect3_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/connect4_16.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/connect4_16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/debugwindow.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/debugwindow.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/edit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/edit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/editcopy.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/editcopy.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/editpaste.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/editpaste.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/export.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/export.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/filesave.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/filesave.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/history.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/history.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/key.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/key.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/lock_closed.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/lock_closed.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/lock_open.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/lock_open.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/overview.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/overview.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/qrcode.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/qrcode.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/quit.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/quit.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/receive.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/receive.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/remove.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/remove.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/send.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/send.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/synced.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/synced.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/transaction0.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/transaction0.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/transaction2.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/transaction2.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/tx_inout.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/tx_inout.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/tx_input.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/tx_input.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/tx_mined.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/tx_mined.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/icons/tx_output.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/icons/tx_output.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/images/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/images/about.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/images/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/images/splash.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/images/splash_testnet.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/images/splash_testnet.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/res/src/bitcoin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/res/src/bitcoin.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/rpcconsole.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/rpcconsole.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/rpcconsole.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/rpcconsole.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/sendcoinsdialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/sendcoinsdialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/sendcoinsdialog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/sendcoinsentry.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/sendcoinsentry.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/sendcoinsentry.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/signverifymessagedialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/signverifymessagedialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/signverifymessagedialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/signverifymessagedialog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/splashscreen.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/splashscreen.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/splashscreen.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/splashscreen.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/test/test_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/test_main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/test/uritests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/uritests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/test/uritests.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/test/uritests.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactiondesc.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactiondesc.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactiondesc.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactiondesc.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactiondescdialog.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactiondescdialog.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactiondescdialog.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactiondescdialog.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactionfilterproxy.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactionfilterproxy.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactionfilterproxy.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactionfilterproxy.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactionrecord.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactionrecord.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactionrecord.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactionrecord.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactiontablemodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactiontablemodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactiontablemodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactiontablemodel.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactionview.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactionview.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/transactionview.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/transactionview.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/walletframe.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/walletframe.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/walletframe.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/walletframe.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/walletmodel.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/walletmodel.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/walletmodel.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/walletmodel.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/walletview.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/walletview.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/qt/walletview.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/qt/walletview.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcblockchain.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcblockchain.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcdump.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcdump.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcmining.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcmining.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rpcnet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcnet.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcwallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcwallet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/serialize.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/serialize.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sync.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/sync.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sync.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/sync.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/Checkpoints_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/Checkpoints_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/DoS_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/DoS_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/accounting_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/accounting_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/alert_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/alert_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/allocator_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/allocator_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/base32_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base32_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/base58_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base58_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/base64_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/base64_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/bloom_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/bloom_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/checkblock_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/checkblock_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/compress_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/compress_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/data/base58_keys_valid.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/data/base58_keys_valid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/data/script_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/data/script_invalid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/data/script_valid.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/data/script_valid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/data/tx_invalid.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/data/tx_invalid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/data/tx_valid.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/data/tx_valid.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/getarg_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/getarg_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/key_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/key_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/miner_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/miner_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/mruset_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/mruset_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/multisig_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/multisig_tests.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/netbase_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/netbase_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/pmt_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/pmt_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/rpc_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/rpc_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/script_P2SH_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/script_P2SH_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/script_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/script_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/scrypt_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/scrypt_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/serialize_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/serialize_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/sigopcount_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/sigopcount_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test_bitcoin.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test_bitcoin.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/transaction_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/transaction_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/uint256_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/uint256_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/util_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/util_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/wallet_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/wallet_tests.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/threadsafety.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/threadsafety.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txdb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/txdb.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/txdb.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/txdb.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ui_interface.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui_interface.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/uint256.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/uint256.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/util.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/version.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/version.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wallet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/wallet.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/wallet.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/walletdb.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/walletdb.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/walletdb.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/walletdb.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -440,23 +79,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "RunOnceActivity.readMode.enableVisualFormatting": "true",
-    "cf.advertisement.text.has.clang-format": "true",
-    "cf.first.check.clang-format": "false",
-    "cidr.known.project.marker": "true",
-    "git-widget-placeholder": "test002",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.has.clang-format&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;test002&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

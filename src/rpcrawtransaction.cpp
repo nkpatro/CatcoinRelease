@@ -228,8 +228,8 @@ Value listunspent(const Array& params, bool fHelp)
 
             "\nExamples\n"
             + HelpExampleCli("listunspent", "")
-            + HelpExampleCli("listunspent", "6 9999999 \"[\\\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"")
-            + HelpExampleRpc("listunspent", "6, 9999999 \"[\\\"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\\\",\\\"LbhhnRHHVfP1eUJp1tDNiyeeVsNhFN9Fcw\\\"]\"")
+            + HelpExampleCli("listunspent", "6 9999999 \"[\\\"9bxBsAhLG8gfmVUPM5X5A1dzzorpRQCU7L\\\",\\\"9Xup2Vm1APaYybG7wJTUVAHtbnbMyNUNb1\\\"]\"")
+            + HelpExampleRpc("listunspent", "6, 9999999 \"[\\\"9bxBsAhLG8gfmVUPM5X5A1dzzorpRQCU7L\\\",\\\"9Xup2Vm1APaYybG7wJTUVAHtbnbMyNUNb1\\\"]\"")
         );
 
     RPCTypeCheck(params, list_of(int_type)(int_type)(array_type));
@@ -416,7 +416,7 @@ Value decoderawtransaction(const Array& params, bool fHelp)
             "         \"reqSigs\" : n,            (numeric) The required sigs\n"
             "         \"type\" : \"pubkeyhash\",  (string) The type, eg 'pubkeyhash'\n"
             "         \"addresses\" : [           (json array of string)\n"
-            "           \"Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2\"   (string) catcoin address\n"
+            "           \"9bxBsAhLG8gfmVUPM5X5A1dzzorpRQCU7L\"   (string) catcoin address\n"
             "           ,...\n"
             "         ]\n"
             "       }\n"
