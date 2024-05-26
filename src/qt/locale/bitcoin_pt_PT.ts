@@ -312,7 +312,7 @@
     </message>
     <message>
         <source>Modify configuration options for Catcoin</source>
-        <translation>Modificar opções de configuração para litecoin</translation>
+        <translation>Modificar opções de configuração para catcoin</translation>
     </message>
     <message>
         <source>Backup wallet to another location</source>
@@ -367,12 +367,12 @@
         <translation>Encriptar as chaves privadas que pertencem à sua carteira</translation>
     </message>
     <message>
-        <source>Sign messages with your Litecoin addresses to prove you own them</source>
-        <translation>Assine mensagens com os seus endereços Litecoin para provar que os controla</translation>
+        <source>Sign messages with your Catcoin addresses to prove you own them</source>
+        <translation>Assine mensagens com os seus endereços Catcoin para provar que os controla</translation>
     </message>
     <message>
-        <source>Verify messages to ensure they were signed with specified Litecoin addresses</source>
-        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Litecoin especificado</translation>
+        <source>Verify messages to ensure they were signed with specified Catcoin addresses</source>
+        <translation>Verifique mensagens para assegurar que foram assinadas com o endereço Catcoin especificado</translation>
     </message>
     <message>
         <source>&amp;File</source>
@@ -391,16 +391,16 @@
         <translation>Barra de separadores</translation>
     </message>
     <message>
-        <source>Litecoin Core</source>
-        <translation>Litecoin Core</translation>
+        <source>Catcoin Core</source>
+        <translation>Catcoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Solicitar pagamentos (gera códigos QR e URIs litecoin:)</translation>
+        <source>Request payments (generates QR codes and catcoin: URIs)</source>
+        <translation>Solicitar pagamentos (gera códigos QR e URIs catcoin:)</translation>
     </message>
     <message>
-        <source>&amp;About Litecoin Core</source>
-        <translation>&amp;Sobre o Litecoin Core</translation>
+        <source>&amp;About Catcoin Core</source>
+        <translation>&amp;Sobre o Catcoin Core</translation>
     </message>
     <message>
         <source>Show the list of used sending addresses and labels</source>
@@ -411,20 +411,20 @@
         <translation>Mostrar a lista de rótulos e endereços de receção usados</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Abrir URI litecoin: ou pedido de pagamento</translation>
+        <source>Open a catcoin: URI or payment request</source>
+        <translation>Abrir URI catcoin: ou pedido de pagamento</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
         <translation>&amp;Opções da linha de &amp;comandos</translation>
     </message>
     <message>
-        <source>Show the Litecoin Core help message to get a list with possible Litecoin command-line options</source>
-        <translation>Mostrar a mensagem de ajuda do Litecoin Core para obter uma lista com possíveis opções de linha de comandos</translation>
+        <source>Show the Catcoin Core help message to get a list with possible Catcoin command-line options</source>
+        <translation>Mostrar a mensagem de ajuda do Catcoin Core para obter uma lista com possíveis opções de linha de comandos</translation>
     </message>
     <message numerus="yes">
-        <source>%n active connection(s) to Litecoin network</source>
-        <translation><numerusform>%n ligação ativa à rede Litecoin</numerusform><numerusform>%n ligações ativas à rede Litecoin</numerusform></translation>
+        <source>%n active connection(s) to Catcoin network</source>
+        <translation><numerusform>%n ligação ativa à rede Catcoin</numerusform><numerusform>%n ligações ativas à rede Catcoin</numerusform></translation>
     </message>
     <message>
         <source>No block source available...</source>
@@ -784,7 +784,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <source>The entered address "%1" is not a valid Litecoin address.</source>
-        <translation>O endereço introduzido "%1" não é um endereço litecoin válido.</translation>
+        <translation>O endereço introduzido "%1" não é um endereço catcoin válido.</translation>
     </message>
     <message>
         <source>Could not unlock wallet.</source>
@@ -1036,7 +1036,7 @@ Endereço: %4</translation>
     </message>
     <message>
         <source>Automatically open the Litecoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Abrir a porta do cliente litecoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
+        <translation>Abrir a porta do cliente catcoin automaticamente no seu router. Isto apenas funciona se o seu router suportar UPnP e este se encontrar ligado.</translation>
     </message>
     <message>
         <source>Map port using &amp;UPnP</source>
@@ -1257,8 +1257,8 @@ Endereço: %4</translation>
         <translation>Erro de pedido de pagamento</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
-        <translation>Impossível iniciar o controlador de litecoin: click-to-pay</translation>
+        <source>Cannot start catcoin: click-to-pay handler</source>
+        <translation>Impossível iniciar o controlador de catcoin: click-to-pay</translation>
     </message>
     <message>
         <source>Payment request fetch URL is invalid: %1</source>
@@ -1881,7 +1881,7 @@ Endereço: %4</translation>
         <translation>total minimo</translation>
     </message>
     <message>
-        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for litecoin transactions than the network can process.</source>
+        <source>Paying only the minimum fee is just fine as long as there is less transaction volume than space in the blocks. But be aware that this can end up in a never confirming transaction once there is more demand for catcoin transactions than the network can process.</source>
         <translation>Pode pagar somente a taxa minima desde que haja um volume de transações inferior ao espaço nos blocos. No entanto tenha em atenção que esta opção poderá acabar em uma transação nunca confirmada assim que os pedidos de transações excedam a capacidade de processamento da rede.</translation>
     </message>
     <message>
@@ -2116,8 +2116,8 @@ Endereço: %4</translation>
         <translation>Introduza um rótulo para este endereço para o adicionar à sua lista de endereços usados</translation>
     </message>
     <message>
-        <source>A message that was attached to the litecoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
-        <translation>Uma mensagem que estava anexada ao URI litecoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Litecoin.</translation>
+        <source>A message that was attached to the catcoin: URI which will be stored with the transaction for your reference. Note: This message will not be sent over the Litecoin network.</source>
+        <translation>Uma mensagem que estava anexada ao URI catcoin: que será armazenada com a transação para sua referência. Nota: Esta mensagem não será enviada através da rede Litecoin.</translation>
     </message>
     <message>
         <source>This is an unverified payment request.</source>
