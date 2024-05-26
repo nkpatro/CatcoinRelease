@@ -2454,7 +2454,7 @@ bool CheckBlockHeader(const CBlockHeader& block, CValidationState& state, bool f
                          REJECT_INVALID, "high-hash");
 
     // Check timestamp
-    if (block.GetBlockTime() > GetAdjustedTime() + 2 * 60 * 60)
+    if (block.GetBlockTime() > GetAdjustedTime() + 15 * 60)
         return state.Invalid(error("CheckBlockHeader() : block timestamp too far in the future"),
                              REJECT_INVALID, "time-too-new");
 
@@ -2538,9 +2538,19 @@ bool ContextualCheckBlockHeader(const CBlockHeader& block, CValidationState& sta
                          REJECT_INVALID, "bad-diffbits");
 
     // Check timestamp against prev
-    if (block.GetBlockTime() <= pindexPrev->GetMedianTimePast())
-        return state.Invalid(error("%s : block's timestamp is too early", __func__),
-                             REJECT_INVALID, "time-too-old");
+    if(block.GetBlockTime() > 1504224000) //Sep 1, 2017 00:00:00 GMT
+    {
+        if (block.GetBlockTime() <= pindexPrev->GetBlockTime())
+            return state.Invalid(error("%s : block's timestamp is too early", __func__),
+                                 REJECT_INVALID, "time-too-old");
+    }
+    else
+    {
+        if (block.GetBlockTime() <= pindexPrev->GetMedianTimePast())
+            return state.Invalid(error("%s : block's timestamp is too early", __func__),
+                                 REJECT_INVALID, "time-too-old");
+    }
+
 
     // Check that the block chain matches the known block chain up to a checkpoint
     if (!Checkpoints::CheckBlock(nHeight, hash))
