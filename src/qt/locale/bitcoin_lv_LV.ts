@@ -43,11 +43,11 @@
     </message>
     <message>
         <source>Choose the address to send coins to</source>
-        <translation>Izvēlies adresi uz kuru sūtīt litecoins</translation>
+        <translation>Izvēlies adresi uz kuru sūtīt catcoins</translation>
     </message>
     <message>
         <source>Choose the address to receive coins with</source>
-        <translation>Izvēlies adresi ar kuru saņemt litecoins</translation>
+        <translation>Izvēlies adresi ar kuru saņemt catcoins</translation>
     </message>
     <message>
         <source>C&amp;hoose</source>
@@ -180,8 +180,8 @@
         <translation>Maciņš nošifrēts</translation>
     </message>
     <message>
-        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your litecoins from being stolen by malware infecting your computer.</source>
-        <translation>Litecoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst litecoins zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
+        <source>Litecoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your catcoins from being stolen by malware infecting your computer.</source>
+        <translation>Litecoin aizvērsies, lai pabeigtu šifrēšanu. Atcerieties, ka maciņa šifrēšana nevar pilnībā novērst catcoins zādzību, ko veic datorā ieviesušās kaitīgas programmas.</translation>
     </message>
     <message>
         <source>Wallet encryption failed</source>
@@ -300,7 +300,7 @@
     </message>
     <message>
         <source>Send coins to a Litecoin address</source>
-        <translation>Nosūtīt litecoins uz Litecoin adresi</translation>
+        <translation>Nosūtīt catcoins uz Litecoin adresi</translation>
     </message>
     <message>
         <source>Modify configuration options for Litecoin</source>
@@ -387,16 +387,16 @@
         <translation>Litecoin Core</translation>
     </message>
     <message>
-        <source>Request payments (generates QR codes and litecoin: URIs)</source>
-        <translation>Pieprasīt maksājumus (izveido QR kodu un litecoin: URIs)</translation>
+        <source>Request payments (generates QR codes and catcoin: URIs)</source>
+        <translation>Pieprasīt maksājumus (izveido QR kodu un catcoin: URIs)</translation>
     </message>
     <message>
         <source>&amp;About Litecoin Core</source>
         <translation>Par &amp;Litecoin Core</translation>
     </message>
     <message>
-        <source>Open a litecoin: URI or payment request</source>
-        <translation>Atvērt litecoin URI vai maksājuma pieprasījumu</translation>
+        <source>Open a catcoin: URI or payment request</source>
+        <translation>Atvērt catcoin URI vai maksājuma pieprasījumu</translation>
     </message>
     <message>
         <source>&amp;Command-line options</source>
@@ -892,7 +892,7 @@ Adrese: %4
     </message>
     <message>
         <source>Enable coin &amp;control features</source>
-        <translation>Ieslēgt litecoin &amp;kontroles funkcijas</translation>
+        <translation>Ieslēgt catcoin &amp;kontroles funkcijas</translation>
     </message>
     <message>
         <source>&amp;Spend unconfirmed change</source>
@@ -956,7 +956,7 @@ Adrese: %4
     </message>
     <message>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot litecoins.</translation>
+        <translation>Izvēlēties dalījuma vienību pēc noklusēšanas, ko izmantot interfeisā un nosūtot catcoins.</translation>
     </message>
     <message>
         <source>Whether to show coin control features or not.</source>
@@ -1049,7 +1049,7 @@ Adrese: %4
         <translation>Maksājumu pieprasījuma kļūda</translation>
     </message>
     <message>
-        <source>Cannot start litecoin: click-to-pay handler</source>
+        <source>Cannot start catcoin: click-to-pay handler</source>
         <translation>Nevar palaist Litecoin: nospied-lai-maksātu apstrādātāju</translation>
     </message>
     <message>
@@ -1466,7 +1466,7 @@ Adrese: %4
     </message>
     <message>
         <source>Confirm send coins</source>
-        <translation>Apstiprināt litecoin sūtīšanu</translation>
+        <translation>Apstiprināt catcoin sūtīšanu</translation>
     </message>
     <message>
         <source>%1 to %2</source>
@@ -2376,7 +2376,7 @@ Adrese: %4
     </message>
     <message>
         <source>Insufficient funds</source>
-        <translation>Nepietiek litecoins</translation>
+        <translation>Nepietiek catcoins</translation>
     </message>
     <message>
         <source>Loading block index...</source>
