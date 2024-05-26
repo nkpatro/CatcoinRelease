@@ -1,9 +1,5 @@
-Building Catcoin
+Building Bitcoin
 
-See doc/readme-qt.rst for instructions on building Catcoin-Qt,
-the intended-for-end-users, nice-graphical-interface, reference
-implementation of Catcoin.
-
-See doc/build-*.txt for instructions on building catcoind,
+See doc/build-*.md for instructions on building bitcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Catcoin.
+implementation of Bitcoin.
