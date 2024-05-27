@@ -310,7 +310,7 @@ public:
         return dataRegtest;
     }
 };
-static CRegTestParams regTestParams;
+//static CRegTestParams regTestParams;
 
 /**
  * Unit test
