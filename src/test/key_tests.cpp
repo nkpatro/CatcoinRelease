@@ -17,11 +17,11 @@
 
 using namespace std;
 
-static const string strSecret1     ("P62tDAcx3WBkbiLiNqccjCUbR1vdLQ1WxYCK8RGFjyXqroiDDs4q");
+static const string strSecret1     ("P3vJRB5Rn9j54fwDmMPZ2TL7SZUcjLzt55Qibp7XikjG75LDX9s1");
 static const string strSecret2     ("P7nBJdG5TXXzMbTi46Vp9R7sDCEhn5vVDxL7kWSRwspC4ci1PQqr");
 static const string strSecret1C    ("P8VV4d5SrMMsswGr2oaX9r4PSgWPXVAATovXt2oFu9JVdxx1kr9X");
 static const string strSecret2C    ("P4FQ3RqVnBLaZckACpqMu5qD6rBz3JVbXP5KXSGExW27Qd9X7me1");
-static const CBitcoinAddress addr1 ("9o31qdnEhm18ufPStWguked7K2wVdpduae");
+static const CBitcoinAddress addr1 ("9mL722yMmQRRom2Ce1nb5XwzenCQRiS5j7");
 static const CBitcoinAddress addr2 ("9dJuHmEXSphYnxGPYDvHRvqFcqbYw5u9iX");
 static const CBitcoinAddress addr1C("9VeBdxQ87SvPqtaFt8ezUwcwoA4h7Q3Q3X");
 static const CBitcoinAddress addr2C("9onMaUzRwrREtMmDTCnqJYB4mSUC8VJFZK");
