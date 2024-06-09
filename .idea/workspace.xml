@@ -17,42 +17,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="df0f6963-da5e-46f3-94a0-5e84e1b84b1d" name="Changes" comment="removed the marked temp code">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26-05-2024_16_27__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_26-05-2024_16_27__Changes_.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/examples/litecoin.conf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-qt.desktop" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-qt.install" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-qt.lintian-overrides" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-qt.protocol" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoin-tx.install" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.bash-completion" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.examples" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.install" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.lintian-overrides" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/litecoind.manpages" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/manpages/litecoin-qt.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/manpages/litecoin.conf.5" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian-catcoin/manpages/litecoind.1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/examples/bitcoin.conf" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/examples/bitcoin.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/bitcoin-qt.1" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/bitcoin-qt.1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/debian/manpages/bitcoin.conf.5" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/debian/manpages/bitcoin.conf.5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-linux.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx-signer.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-osx.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-descriptors/gitian-win.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/gitian-downloader/coblee-key.pgp" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/gitian-downloader/coblee-key.pgp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/qos/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/qos/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/qos/tc.sh" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/qos/tc.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contrib/seeds/makeseeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/contrib/seeds/makeseeds.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/Tor.txt" beforeDir="false" afterPath="$PROJECT_DIR$/doc/Tor.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/coding.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/coding.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/doc/tor.md" beforeDir="false" afterPath="$PROJECT_DIR$/doc/tor.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/share/seeds/generate-seeds.py" beforeDir="false" afterPath="$PROJECT_DIR$/share/seeds/generate-seeds.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/share/seeds/nodes_main.txt" beforeDir="false" afterPath="$PROJECT_DIR$/share/seeds/nodes_main.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chainparamsseeds.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/chainparamsseeds.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/init.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/init.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcnet.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcnet.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/rpcrawtransaction.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/netbase_tests.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/netbase_tests.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
