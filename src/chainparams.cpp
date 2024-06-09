@@ -181,8 +181,10 @@ public:
         assert(hashGenesisBlock == uint256("0xbc3b4ec43c4ebb2fef49e6240812549e61ffa623d9418608aa90eaad26c96296"));
         assert(genesis.hashMerkleRoot == uint256("0x4007a33db5d9cdf2aab117335eb8431c8d13fb86e0214031fdaebe69a0f29cf7"));
 
-        vSeeds.push_back(CDNSSeedData("catcointools.com", "dnsseed.catcointools.com"));
-        vSeeds.push_back(CDNSSeedData("catcoinpool.org", "dnsseed.catcoinpool.org"));
+//        vSeeds.push_back(CDNSSeedData("catcointools.com", "dnsseed.catcointools.com"));
+//        vSeeds.push_back(CDNSSeedData("catcoinpool.org", "dnsseed.catcoinpool.org"));
+        vSeeds.push_back(CDNSSeedData("catcoinwallets.com", "seed.catcoinwallets.com"));
+        vSeeds.push_back(CDNSSeedData("geekhash.org", "cat.geekhash.org"));
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,48);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,5);
