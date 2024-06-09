@@ -1,5 +1,6 @@
 # List of Catcoin IPv4 nodes sorted by 30 day availability, block height and version.
 
+173.254.235.58:9933
 192.241.166.112:9933
 50.31.189.52:9933
 85.25.196.115:9933
